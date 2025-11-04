@@ -4,3 +4,6 @@ challenges:
     name: Apple
   - id: banana
     name: Banana
+    visibility:
+        start: "2099-01-01T00:00:00Z"
+        stop: "2100-01-01T00:00:00Z"

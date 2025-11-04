@@ -4,6 +4,13 @@ type: example
 award:
   emoji: 😀
 image: pwncollege/challenge-simple
+password: password
+permissions:
+  - custom_js
+interfaces:
+  - name: SSH
+  - name: Terminal
+    port: 7681
 modules:
   - id: hello
   - id: world

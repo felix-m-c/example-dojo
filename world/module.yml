@@ -6,3 +6,6 @@ challenges:
     name: Mars
   - id: venus
     name: Venus
+    visibility:
+        start: "2000-01-01T00:00:00Z"
+        stop: "2100-01-01T00:00:00Z"
