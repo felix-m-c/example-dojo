@@ -3,3 +3,6 @@ document.onload = function() {
     
     document.body.style.backgroundColor = "#f0f0f0";    
 }
+
+
+console.log("Custom_JS loaded successfully.");
