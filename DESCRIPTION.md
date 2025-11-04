@@ -1,4 +1,6 @@
 # Welcome to JADE CTF 2!
+*hover for more info*
+
 a few facts about this platform:
 - This definitely is the real jade 2
 - Why does custom js not work?
@@ -32,9 +34,11 @@ li:has([href="/workspace"]),
 li:has([href="/sensai"]) {
   display: none;
 }
+
 [href="/dojos"] .fas {
   display: none;
 }
+
 [href="/dojos"] span.text-nowrap {
   &::before {
     content:"Challenges";
@@ -42,7 +46,22 @@ li:has([href="/sensai"]) {
   }
   font-size: 0;
 }
+
 :root {
   --brand-gold: white !important;
+}
+
+main div div:nth-child(2) {
+  overflow-y: clip;
+  max-height: 90px;
+  transition: max-height linear .4s 1s;
+  padding-inline: 1rem;
+  padding-bottom: .5rem;
+  border-radius: .2rem;
+  &:hover {
+    max-height: 1500px;
+    background: #333;
+    transition-delay: 0s;
+  }
 }
 ```
