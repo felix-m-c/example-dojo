@@ -1,2 +1,4 @@
-This is an [example dojo](https://github.com/pwncollege/example-dojo).
-Fork this repository, and create your own dojo!
+# Welcome to JADE CTF 2!
+a few facts about this platform:
+- This definitely is the real jade 2
+- Why does custom js not work?
