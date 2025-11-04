@@ -6,7 +6,7 @@ award:
 image: pwncollege/challenge-simple
 password: password
 permissions:
-  custom_js: custom.js
+  - custom_js
 interfaces:
   - name: SSH
   - name: Terminal
