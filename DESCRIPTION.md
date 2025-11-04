@@ -54,14 +54,26 @@ li:has([href="/sensai"]) {
 main div div:nth-child(2) {
   overflow-y: clip;
   max-height: 90px;
-  transition: max-height linear .4s 1s;
+  transition: max-height linear .4s .5s;
   padding-inline: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: .4rem;
   border-radius: .2rem;
   &:hover {
-    max-height: 1500px;
+    max-height: 2300px;
     background: #333;
     transition-delay: 0s;
+  }
+}
+
+main div div:nth-child() {
+  display: none;
+}
+
+h2.row:not(:nth-of-type(4)),
+#stats-dashboard {
+  display: none;
+  &+br {
+    display: none;
   }
 }
 ```
